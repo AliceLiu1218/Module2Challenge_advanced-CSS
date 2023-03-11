@@ -46,3 +46,15 @@
 .subtitles h2{
     text-align: right;
 }
+
+.container{
+    display: flex;
+}
+
+.title{
+    width: 20%;
+}
+
+.content{
+    width: 80%;
+}
