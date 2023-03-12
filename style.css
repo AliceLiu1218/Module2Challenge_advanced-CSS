@@ -1,3 +1,6 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -53,8 +56,16 @@
 
 .title{
     width: 20%;
+    text-align: right;
+    padding-right: 3%;
+    margin-right: 2%;
+    border-right: 6px solid rgb(83, 83, 203);
 }
 
+.title h2 {
+    color: rgb(83, 83, 203);
+    font-size: 200%;
+}
 .content{
     width: 80%;
 }
@@ -109,3 +120,14 @@
   padding: 10px;
   background-color: blueviolet;
 }  
+
+.contactinfo {
+    display: flex;
+    justify-content: space-around;
+}
+.contactinfo h3 {
+    font-size: 150%;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
