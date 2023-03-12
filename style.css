@@ -58,3 +58,54 @@
 .content{
     width: 80%;
 }
+
+.imagecontainer1 {
+    position: relative;
+    color:brown;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.imagecontainer1 img {
+    width: 100%;
+    height: 400px;
+}
+
+.imageflex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer-left {
+    width: 45%; 
+    margin-right: 5%; 
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.imagecontainer-right {
+    width: 45%; 
+    margin-right: 5%;
+    position: relative;
+     margin-bottom: 2%;
+}
+.imagecontainer-left img {
+    width: 100%;
+    height: 300px;
+   
+}
+
+.imagecontainer-right img {
+    width: 100%;
+    height: 300px;
+    
+}
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 200%;
+  text-decoration: underline;
+  padding: 10px;
+  background-color: blueviolet;
+}  
